@@ -2,7 +2,7 @@
 
     display: flex;
     flex-direction: column;
-    background-color: #95dada;
+    background-color: white;
     border: 1px solid grey;
     border-radius:5px ;
     padding: 25px;
@@ -13,7 +13,52 @@
     transition: transform 0.25s ease-out;
 
 }
-
+.search-center{
+    text-align: center;
+}
+.add-tag{
+    width: 150px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 5px;
+    margin-top: 20px;
+}
+.buttonHolder {
+    position: absolute;
+    right: 15px;
+    padding-top: 15px;
+}
+.avatar{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 1px solid grey;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+.tag {
+    color: #000;
+    float: left;
+    background-color: #dcdcdc;
+    border-radius: 7px;
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px;
+}
+.student {
+    /* border-bottom: 1px solid #dcdcdc; */
+    /* display: flex; */
+    padding-left: 30px;
+}
+.search{
+    width: 50vw;
+    padding: 5px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    margin-bottom: 5px;
+}
 .card-container:hover{
 
     transform: scale(1.05);
